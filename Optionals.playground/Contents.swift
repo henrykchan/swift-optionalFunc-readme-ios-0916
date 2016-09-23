@@ -21,6 +21,9 @@ func firstItem(items: [String]) -> String? {
 fruits = ["apple", "banana", "grape"]
 firstItem(items: fruits)
 
+//fruits = []
+//print (fruits)
+
 if let fruit = firstItem(items: fruits) {
     print("The first fruit is \(fruit)")
 } else {
@@ -39,8 +42,8 @@ if let fruit = firstItem(items: fruits) {
 
 func produceFullName(withFirstName firstName: String, middleName: String?, lastName: String) -> String {
     var name = firstName
-    if let middleName = middleName {
-        name = "\(name) \(middleName)"
+    if let middle = middleName {
+        name = "\(name) \(middle)"
     }
     name = "\(name) \(lastName)"
     return name
