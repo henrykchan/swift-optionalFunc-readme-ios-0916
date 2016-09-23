@@ -30,8 +30,8 @@ if let fruit = firstItem(items: fruits) {
     print("There are no fruits!")
 }
 
-fruits = []
-firstItem(items: fruits)
+//fruits = []
+//firstItem(items: fruits)
 
 if let fruit = firstItem(items: fruits) {
     print("The first fruit is \(fruit)")
